@@ -7,6 +7,6 @@ const fileUpload_controller = require('../controllers/fileUploadController');
 // File upload routes
 
 // POST requrest for analyzing metadata
-router.post("/api/fileanalyse", fileUpload_controller.file_metadata);
+router.post("/", fileUpload_controller.file_metadata);
 
 module.exports = router;
